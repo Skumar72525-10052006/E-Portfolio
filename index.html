@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">E-Portfolio</div>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="profile-image">
+        <img src="img/image.png" alt="Your Name">
+      </div>
+      <h1>Hi, I'm <span class="highlight">Sonu Kumar</span></h1>
+      <p class="tagline">Frontend Developer</p>
+      <p class="hero-description">Crafting beautiful digital experiences with clean & elegant code</p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+        <div class="about-text">
+          <p>Hi, I’m Sonu Kumar , a 2nd Year Diploma student specializing in Computer Science and Technology(CST). Currently, I’m doing an internship with Databits Technologia, where I’m gaining hands-on experience in Full-Stack Web Development With PHP.
+
+          I’m passionate about learning new technologies and applying my skills to solve real-world problems. During my internship and academic journey, I’ve worked on project like Building A Simple E-Commerce Website Using HTML,CSS,JAVASCRIPT, which have helped me grow both technically and personally.
+            
+          In my free time, I enjoy exploring new tools, working on personal projects, and improving my knowledge to stay updated in the tech world.
+            
+          I’m excited to continue learning and contributing to impactful projects!</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="img/logo.png" alt="Project 1">
+            <div class="project-info">
+                <h3>An E-commerce Website Named Geek Store</h3>
+                <p>A Basic-featured E-Commerce store built with HTML,CSS,JS.</p>
+                <div class="project-links">
+                    <a href="https://geek-store-e-commerce-website.netlify.app/" class="btn"
+                    target="_blank">View Live</a>
+                    <a href="https://github.com/Skumar72525-10052006/Geek-Store--A-Simple-E-Commerce-Website" class="btn" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-html5" style="color: #e34f26;"></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt" style="color: #663399;"></i>
+        <h3>CSS</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js" style="color: #f7df1e;"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-python"></i>
+        <h3>Python</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-content">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>sonukumarpaw@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <a href="tel:+919434853756"><i class="fas fa-phone" style="color: black;"></i></a>
+          <p>+91 9434853756</p>
+        </div>
+        <div class="info-item">
+          <a href="https://wa.me/+919434853756"><i class="fa-brands fa-whatsapp fa-xl" style="color: #25d366;"></i></a>
+          <p>+91 9434853756</p>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/Skumar72525-10052006"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sonu-kumar-7003a5325/"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Sonu Kumar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
